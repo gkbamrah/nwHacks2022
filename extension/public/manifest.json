@@ -1,6 +1,6 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "ShrugBook",
   "default_icon": "logo192.png",
   "start_url": ".",
   "display": "standalone",
