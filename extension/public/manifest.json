@@ -7,5 +7,10 @@
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "content_scripts":[{
+    "matches": ["https://canvas.ubc.ca/*"],
+    "css":["main.css"],
+    "js":["script.js"]
+  }]
 }
