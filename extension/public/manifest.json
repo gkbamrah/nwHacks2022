@@ -1,7 +1,9 @@
 {
   "short_name": "React App",
   "name": "ShrugBook",
-  "default_icon": "logo192.png",
+  "icons": { "16": "logo.png",
+    "48": "logo.png",
+   "128": "logo.png" },
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
