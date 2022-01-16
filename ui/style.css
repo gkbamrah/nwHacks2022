@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'
+}
+
+.logo img{
+    float: middle;
+    width: 78px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 122px;
+}
+
+.intro{
+    position: absolute;
+    width: 127px;
+    height: 30px;
+    left: 21px;
+    top: 71px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.todo{
+    position: absolute;
+    
+    left: 88px;
+    top: 169px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.circle{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 106px;
+    top: 147px;
+
+    background: linear-gradient(180deg, #88DCCD 0%, rgba(136, 220, 205, 0) 100%);
+    border-radius: 60.5px;
+}
+
+.assignment{
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 34px;
+    top: 280px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+
+    color: #FEC524;
+}
+
+ul li{
+    position: relative;
+    width: 112px;
+    height: 23px;
+    left: 49px;
+    top: 270px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    color: #888;
+    text-decoration: line-through;
+  }
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #888;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    
+    left: 250px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+.visitcalender{
+    position: absolute;
+    width: 273px;
+    height: 23px;
+    left: 24px;
+    top: 564px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.rectangle{
+    position: absolute;
+    width: 322px;
+    height: 47px;
+    left: 0px;
+    top: 553px;
+
+    background: #B2D8D8;
+}
