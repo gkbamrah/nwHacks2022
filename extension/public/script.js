@@ -1,3 +1,5 @@
+// Canvas api functionality
+
 function getCourses() {
     let url = 'https://canvas.ubc.ca/api/v1/courses'
     let courses = [];
