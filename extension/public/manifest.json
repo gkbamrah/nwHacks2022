@@ -15,7 +15,6 @@
   },
   "content_scripts":[{
     "matches": ["https://canvas.ubc.ca/*"],
-    "css":["main.css"],
     "js":["script.js"]
   }]
 }
