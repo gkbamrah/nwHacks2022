@@ -3,7 +3,7 @@ if(el){
     el.addEventListener('click', start);
 }
 
-let token = "token"
+let token = " "
 
 function getCourses() {
     let url = 'https://canvas.ubc.ca/api/v1/courses'
@@ -71,7 +71,6 @@ function addTasks(tasks){
 function addTask(name,timedate,id){
     console.log(name)
     console.log(timedate)
-    addSection(id)
     fetch('https://api.todoist.com/rest/v1/tasks',{
     method: 'POST',
     body : JSON.stringify({"content":name,"due_datetime":timedate,"section_id":id}),

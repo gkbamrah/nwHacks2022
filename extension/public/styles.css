@@ -13,3 +13,8 @@ button{
     gap:1em;
     padding:1em;
 }
+
+button:hover{
+    color:black;
+    border:2px solid black;
+}
