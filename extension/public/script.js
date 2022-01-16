@@ -1,4 +1,4 @@
-let token = '43e09e7b37e59e56742a7199f8fdb1b7b1b58c84'
+let token = 
 
 function getCourses() {
     let url = 'https://canvas.ubc.ca/api/v1/courses'
@@ -84,5 +84,5 @@ function addTask(name,timedate,id){
 }
 
 function addSection(num){
-    
+
 }
