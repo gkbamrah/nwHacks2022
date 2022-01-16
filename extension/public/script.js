@@ -3,7 +3,7 @@ if(el){
     el.addEventListener('click', start);
 }
 
-let token = "43e09e7b37e59e56742a7199f8fdb1b7b1b58c84"
+let token = "token"
 
 function getCourses() {
     let url = 'https://canvas.ubc.ca/api/v1/courses'
