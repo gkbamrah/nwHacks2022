@@ -1,4 +1,9 @@
-let token = 
+var el = document.getElementById('start');
+if(el){
+    el.addEventListener('click', start);
+}
+
+let token = "token"
 
 function getCourses() {
     let url = 'https://canvas.ubc.ca/api/v1/courses'
@@ -53,16 +58,11 @@ function start() {
     });
 }
 
-start();
-
-
-
 function addTasks(tasks){
     for(let task of tasks){
         if(task.length>0){
             for(let ass of task){
                 addTask(ass[0],ass[1],ass[2])
-                console.log(ass[1])
             }
         }
     }
